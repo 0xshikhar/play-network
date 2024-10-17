@@ -19,8 +19,6 @@ const galindo = Galindo({
   weight: "400",
 });
 
-import { headers } from "next/headers";
-import { cookieToInitialState } from "wagmi";
 import Navbar from "@/components/navigation/navbar";
 
 export const metadata: Metadata = {
